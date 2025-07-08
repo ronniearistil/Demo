@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinnixPro Investor Presentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .slide {
+            min-height: 100vh;
+            scroll-snap-align: start;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5vw;
+            position: relative;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .slide-container {
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+            height: 100vh;
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 0.875rem;
+            color: #9ca3af;
+        }
+        .brand-teal-dark { color: #2d5b5a; }
+        .brand-teal { color: #448a88; }
+        .brand-teal-light { color: #69b8b5; }
+        .bg-brand-teal-dark { background-color: #2d5b5a; }
+        .bg-brand-teal { background-color: #448a88; }
+        .bg-brand-teal-light { background-color: #69b8b5; }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="slide-container">
+
+        <!-- Slide 1: Title -->
+        <div id="slide-1" class="slide bg-white flex items-center justify-center text-center">
+            <div class="fade-in">
+                <h1 class="text-6xl md:text-8xl font-extrabold brand-teal-dark">FinnixPro</h1>
+                <p class="mt-4 text-xl md:text-2xl text-gray-600">The Intelligent Control Stack for Project Finance</p>
+                <p class="mt-8 text-gray-500">Investor Presentation | July 2025</p>
+            </div>
+            <div class="slide-number">1 / 8</div>
+        </div>
+
+        <!-- Slide 2: The Problem -->
+        <div id="slide-2" class="slide bg-gray-50">
+             <div class="max-w-5xl mx-auto fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold brand-teal-dark">The Silent Killer of Great Projects</h2>
+                <p class="mt-6 text-xl md:text-2xl text-gray-700 leading-relaxed">
+                    Most project-driven teams don't fail because of a lack of talent. They fail because they're <span class="font-semibold brand-teal">flying blind financially</span>.
+                </p>
+                <p class="mt-4 text-xl md:text-2xl text-gray-700 leading-relaxed">
+                    There’s no real-time visibility into burn, margin, or runway until it’s too late.
+                </p>
+            </div>
+            <div class="slide-number">2 / 8</div>
+        </div>
+        
+        <!-- Slide 3: Why Traditional Tools Fail -->
+        <div id="slide-3" class="slide bg-white">
+            <div class="max-w-5xl mx-auto fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold brand-teal-dark">Why Traditional Tools Fail</h2>
+                <p class="mt-6 text-xl md:text-2xl text-gray-700 leading-relaxed">
+                    Existing solutions only solve a piece of the problem. You get a static dashboard, but no real insight. You get a forecast, but it's too late to act.
+                </p>
+                <p class="mt-4 text-xl md:text-2xl font-bold brand-teal">
+                    To succeed, you need a complete system.
+                </p>
+            </div>
+            <div class="slide-number">3 / 8</div>
+        </div>
+
+        <!-- Slide 4: The Solution -->
+        <div id="slide-4" class="slide bg-gray-50">
+            <div class="max-w-5xl mx-auto text-center fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold brand-teal-dark">Our Solution: The Intelligent Control Stack</h2>
+                <p class="mt-4 text-xl text-gray-600">We built FinnixPro to turn data into decisions.</p>
+                <div class="mt-8">
+                    <img src="https://storage.googleapis.com/gemini-prod-us-west1-423901-assets/e3814e5a-73d8-4f1b-a53c-c8430a382103.png" alt="The Intelligent Control Stack for Project Finance showing three layers: Proactive Control, Predictive Insight, and Unified Financial View" class="max-w-2xl mx-auto rounded-lg shadow-2xl">
+                </div>
+            </div>
+            <div class="slide-number">4 / 8</div>
+        </div>
+
+        <!-- Slide 5: The Roadmap -->
+        <div id="slide-5" class="slide bg-white">
+            <div class="max-w-6xl mx-auto w-full fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold brand-teal-dark text-center">What's Next: Achieving Proactive Control</h2>
+                <p class="mt-4 text-xl text-gray-600 text-center">Our roadmap deepens each layer of the stack. This funding accelerates our vision.</p>
+                <div class="mt-10 bg-gray-50 p-8 rounded-xl shadow-lg border">
+                    <div class="grid md:grid-cols-3 gap-8 text-left">
+                        <div>
+                            <h3 class="text-2xl font-bold brand-teal-dark">Foundation for Growth</h3>
+                            <p class="mt-2 text-gray-600 font-semibold">Initiative: Full UX/UI Modernization</p>
+                            <p class="mt-2 text-gray-700">Makes the <span class="font-semibold">Unified View</span> faster, cleaner, and more intuitive to adopt and scale.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold brand-teal-dark">Unlocking Mobile</h3>
+                            <p class="mt-2 text-gray-600 font-semibold">Initiative: PWA & Mobile Optimization</p>
+                            <p class="mt-2 text-gray-700">Extends <span class="font-semibold">Proactive Control</span> to every device, putting decision-making power in your pocket.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold brand-teal-dark">AI-Powered Intelligence</h3>
+                            <p class="mt-2 text-gray-600 font-semibold">Initiative: Prescriptive Suggestions</p>
+                            <p class="mt-2 text-gray-700">Upgrades <span class="font-semibold">Predictive Insight</span> to recommend what to do, not just what will happen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">5 / 8</div>
+        </div>
+
+        <!-- Slide 6: The Ask -->
+        <div id="slide-6" class="slide bg-gray-50">
+            <div class="max-w-5xl mx-auto text-center fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold brand-teal-dark">The Investment</h2>
+                <div class="mt-8 grid md:grid-cols-2 gap-8 text-left">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-2xl font-bold brand-teal">Raise</h3>
+                        <p class="mt-2 text-4xl font-extrabold text-gray-800">$2M SAFE</p>
+                        <p class="text-gray-600">18-month runway</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-2xl font-bold brand-teal">Valuation Cap</h3>
+                        <p class="mt-2 text-4xl font-extrabold text-gray-800">$10M - $12M</p>
+                        <p class="text-gray-600">Based on lead interest</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">6 / 8</div>
+        </div>
+
+        <!-- Slide 7: Use of Funds -->
+        <div id="slide-7" class="slide bg-white">
+            <div class="max-w-5xl mx-auto w-full fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold brand-teal-dark text-center">Use of Funds</h2>
+                <div class="mt-8 flex flex-col md:flex-row justify-center items-center">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80">
+                        <svg class="w-full h-full" viewBox="0 0 36 36">
+                            <path class="text-gray-200" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.8"></path>
+                            <path class="brand-teal-dark" stroke-linecap="round" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831" fill="none" stroke="currentColor" stroke-width="3.8" stroke-dasharray="70, 100"></path>
+                             <path class="brand-teal" stroke-linecap="round" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831" fill="none" stroke="currentColor" stroke-width="3.8" stroke-dasharray="0, 70, 20, 10"></path>
+                             <path class="brand-teal-light" stroke-linecap="round" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831" fill="none" stroke="currentColor" stroke-width="3.8" stroke-dasharray="0, 90, 10, 0"></path>
+                        </svg>
+                        <div class="absolute inset-0 flex items-center justify-center text-center">
+                            <span class="text-xl font-bold text-gray-700">Core Team<br>Growth</span>
+                        </div>
+                    </div>
+                    <div class="mt-8 md:mt-0 md:ml-12 text-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-4 h-4 rounded-full bg-brand-teal-dark mr-3"></div>
+                            <div><span class="font-bold">70%</span> Engineering & Product</div>
+                        </div>
+                        <div class="flex items-center mb-4">
+                            <div class="w-4 h-4 rounded-full bg-brand-teal mr-3"></div>
+                            <div><span class="font-bold">20%</span> Go-to-Market & Sales</div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 rounded-full bg-brand-teal-light mr-3"></div>
+                            <div><span class="font-bold">10%</span> Operations</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">7 / 8</div>
+        </div>
+
+        <!-- Slide 8: Thank You -->
+        <div id="slide-8" class="slide bg-brand-teal-dark text-white flex items-center justify-center text-center">
+            <div class="fade-in">
+                <h2 class="text-6xl md:text-8xl font-extrabold">Thank You</h2>
+                <p class="mt-4 text-xl md:text-2xl">Ronnie Aristil | Founder, FinnixPro</p>
+                <p class="mt-2 text-lg">ronnie@finnixpro.com</p>
+            </div>
+            <div class="slide-number text-gray-400">8 / 8</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
